@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SEARCH WOGNOK</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="sound/ef.mp3" type="audio/mp3">
+    </audio>
+    <div id="mySidenav" class="sidenav">
+        <a href="home.html" id="about">HOME</a>
+        <a href="search.html" id="blog">SEARCH</a>
+        <a href="contact.html" id="contact">Contact</a>
+    </div>
+   
+
+    <div class="container">
+        <br>
+        <br>
+        <h1>Search</h1>
+
+        <form>
+            <br>
+            <br>
+            <div class="row">
+                
+                    <div class="col-12 col-md-4  form-group ">
+                        <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Keyword ex. Cafe, Seafood" aria-describedby="helpId">
+                    </div>
+                    <div class="col-12 col-md-4 form-group">
+                        <select class="form-control" name="type" id="type">
+                            <option value="resturant">Resturant</option>
+                            <option value="doctor">Doctor</option>
+                            <option value="beauty_salon">Beauty Salon</option>
+                            <option value="gas_station">Gas Station</option>
+                            <option value="atm">ATM</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4  form-group">
+                        <select class="form-control" name="radius" id="radius">
+                            <option value="500">500 m</option>
+                            <option value="1000">1 km</option>
+                            <option value="5000">5 km</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="buttonsearch">
+                <a name="" id="search" class="btn btn-danger" href="#" role="button">
+                    <img src="picture/find.svg" width="30" height="30" alt="">
+                </a>
+                </a>
+                <p></p>
+                <div id="searchresult">
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/placesearch.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
